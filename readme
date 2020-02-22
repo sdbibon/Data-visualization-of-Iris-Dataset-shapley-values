@@ -1,3 +1,10 @@
 
-Run the file Dash_visualization.py
-Type in the web browser #http://127.0.0.1:8050/ and run the website.
+Running instructions:
+(1). Run the file Dash_visualization.py
+(2). Type in the web browser http://127.0.0.1:8050/ and run the website. The visualization will be shown.
+
+(3). Some visualization in shap_presentation.ipynb is also shown using python built in libraries.
+
+(4). For running the python file some libraries needs to be installed like: dash, dash_core_components, dash_html_components and pandas, shap and numpy.
+
+(5). The out.csv file is being generated from shap_presentation.ipynb jupyter notebook file which were used in the Dash_visualization.py file.
