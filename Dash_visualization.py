@@ -11,7 +11,7 @@ df = pd.read_csv('out.csv')
 
 app.layout = html.Div([
     dcc.Graph(
-        id='life-exp-vs-gdp',
+        id='versicolor_prob according to shap vs non_shap values',
         figure={
             'data': [
                 dict(
@@ -38,7 +38,7 @@ app.layout = html.Div([
     ),
 
     dcc.Graph(
-        id='sepal width',
+        id='versicolor_prob according to shap vs non_shap values',
         figure={
             'data': [
                 dict(
@@ -64,7 +64,7 @@ app.layout = html.Div([
         }
     ),
      dcc.Graph(
-        id='petal length',
+        id='versicolor_prob according to shap vs non_shap values',
         figure={
             'data': [
                 dict(
@@ -90,7 +90,7 @@ app.layout = html.Div([
         }
     ),
      dcc.Graph(
-        id='petal width',
+        id='versicolor_prob according to shap vs non_shap values',
         figure={
             'data': [
                 dict(
@@ -116,7 +116,7 @@ app.layout = html.Div([
         }
     ),
     dcc.Graph(
-        id='petal width1',
+        id='versicolor_prob',
         figure={
             'data': [
                 dict(
@@ -142,7 +142,7 @@ app.layout = html.Div([
         }
     ),
     dcc.Graph(
-        id='petal width2',
+        id='versicolor_prob',
         figure={
             'data': [
                 dict(
